@@ -16,6 +16,8 @@ import { DetalleComponent } from '../pages/detalle/detalle.component';
 
 //pipes
 import { PlaceHolderPipe } from './pipes/placeholder.pipe';
+import { PendientesPipe } from './pipes/pendientes.pipe';
+
 
 
 //Servioios
@@ -30,7 +32,8 @@ import { ListaDeseosService } from './services/lista-deseos.services';
     TerminadosComponent,
     AgregarComponent,
     PlaceHolderPipe,
-    DetalleComponent
+    DetalleComponent,
+    PendientesPipe
   ],
   imports: [
     BrowserModule,
